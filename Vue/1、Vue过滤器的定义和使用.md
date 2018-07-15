@@ -1,6 +1,6 @@
 ### Vue 中过滤器的使用和定义
 
-###  过滤器的定义
+### 过滤器的定义
 
 #### 1、全局过滤器的定义
 
@@ -23,7 +23,7 @@ num在调用过滤器时在圆括号中第一个参数
 type在调用过滤器时在圆括号中第二个参数
 ```
 
-#### 2、文件组件  中(局部 )过滤器的定义
+#### 2、文件组件中(局部)过滤器的定义
 
 Vue 文件组件中定义
 
@@ -89,7 +89,7 @@ let dateFilter = (input, format = "yyyy-MM-dd hh:mm:ss") => {
 export { dateServer, moneyFilter, dateFilter };
 ```
 
-main.js 中注册  全局自定义指令
+main.js 中注册全局自定义指令
 
 ```js
 //引入文件

@@ -1,6 +1,6 @@
 ### Vue 移动端适配解决方案
 #### 1、动态设置 font-size 的 js
-fontSize.js
+fontSize.js
 ```js
 // 获取屏幕宽度
 let htmlWidth =
@@ -44,7 +44,7 @@ import "ib-flexible";
 #### 4、配置 px 转 rem 工具
 安装 px2rem-loader
 ```
-npm install px2rem-loader --save-dev
+npm install px2rem-loader --save-dev
 ```
 配置 build/utils.js 文件
 ```js

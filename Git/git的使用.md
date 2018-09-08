@@ -27,9 +27,7 @@ git init[project-name]
 ```bash
 git clone [url]
 ```
-
 #### 二、配置
-
 Git 的设置文件为.gitconfig，它可以在用户主目录下（全局配置），也可以在项目目
 
 录下（项目配置）。

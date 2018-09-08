@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>实现li标签元素背景颜色间隔变化</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            width: 100%;
+        }
+
+        ul li {
+            width: 100%;
+            height: 20px;
+            background: red;
+        }
+
+        /* 第一个li元素的颜色 */
+        ul li:nth-child(4n-3) {
+            background: red;
+        }
+
+        /* 第二个li元素的颜色 */
+        ul li:nth-child(4n-2) {
+            background: green;
+        }
+
+        /* 第三个li元素的颜色 */
+        ul li:nth-child(4n-1) {
+            background: blue;
+        }
+
+        /* 第四个li元素的颜色 */
+        ul li:nth-child(4n-0) {
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- 使用css选择来设置li的阶梯背景颜色可以很好的优化dom加载的性能 -->
+    <!-- 除了可以使用这个方式来实现，同时还可以使用 -->
+</body>
+
+</html>

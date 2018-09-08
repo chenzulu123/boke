@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo</title>
+    <style>
+        /*父盒子元素*/
+        .father {
+            width: 400px;
+            height: 400px;
+            background: red;
+            position: relative;
+        }
+
+        /* 子元素盒子 */
+        .son {
+            padding: 20px;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: black;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son">
+            hello
+        </div>
+    </div>
+</body>
+
+</html>

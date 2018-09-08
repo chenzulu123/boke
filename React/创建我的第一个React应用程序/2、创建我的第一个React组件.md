@@ -3,7 +3,7 @@
 #### 1、创建组件文件Welcome
 在src目录中创建Welcome.js文件
 ![avatar](../images/welcome.png)
-#### 2、编写Welcome组件
+#### 2、编写Welcome组件
 ```js
 import React from 'react';
 class Welcome extends React.component{
@@ -11,7 +11,7 @@ class Welcome extends React.component{
         return <h1>Welcome React!</h1>
     }
 }
-export default Welcome;
+export default Welcome;
 ```
 #### 3、在index.js中引用Welcome组件
 * 1)引入Welcome组件
